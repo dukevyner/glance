@@ -171,13 +171,13 @@ Then, edit the following files as desired:
 When ready, run:
 
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 If you encounter any issues, you can check the logs by running:
 
 ```bash
-docker compose logs
+docker-compose logs
 ```
 
 <hr>
@@ -209,7 +209,7 @@ mkdir config && wget -O config/glance.yml https://raw.githubusercontent.com/glan
 Feel free to edit the `glance.yml` file to your liking, and when ready run:
 
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 If you encounter any issues, you can check the logs by running:
